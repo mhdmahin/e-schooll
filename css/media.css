@@ -1,0 +1,285 @@
+/* --------------------------------- 1 ---------------------------- */
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* header start */
+	header{
+		padding: 0px 0;
+	}
+	.logo{
+		width: 160px;
+	}
+	.menu ul li a{
+		padding: 0 15px  5px !important;
+	}
+	/* banner start */
+	.banner{
+		padding: 0 0 50px;
+	}
+	.b_text{
+		padding-right: 0;
+	}
+	.b_h1{
+		margin: 10px 0;
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.b_text2{
+		line-height: 24px;
+	}
+	.b_link{
+		margin-top: 20px;
+	}
+	.b_img{
+		margin-bottom: 20px;
+		padding: 0 10px;
+	}
+	/* feature start */
+	.feature{
+		padding: 20px 0 60px;
+	}
+	/* courses start */
+	.course{
+		padding: 0 0 60px;
+	}
+	.c_title h1{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.s_course{
+		margin: 20px 0 0;
+		padding: 15px 10px 40px;
+	}
+	.s_course h2{
+		margin: 10px 0 5px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.btn_common{
+		margin: 15px 0 25px;
+		
+	}
+	.mr_c{
+		margin-right: 0 !important;
+	}
+	.left ul li img, .right ul li img{
+		width: 19px;
+	}
+	.left ul li span, .right ul li span{
+		font-size: 14px;
+	}
+	/* footer start */
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.f_1{
+		text-align: center;
+	}
+	.f_2{
+		margin-top: 40px;
+		text-align: center;
+	}
+	/* tiste start */
+	.f_item {
+		padding-top: 15px;
+		padding-bottom: 50px;
+	}
+	.f_icon{
+		padding-bottom: 20px;
+	}
+	.f_text{
+		text-align: center;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* header start */
+	.menu ul li a{
+		padding: 0 15px  10px !important;
+	}
+	/* banner start */
+	.banner{
+		padding: 0 0 60px;
+	}
+	.b_text{
+		padding-right: 0;
+	}
+	.b_h1{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.b_text2{
+		line-height: 24px;
+	}
+	.b_link{
+		margin-top: 20px;
+	}
+	.b_img{
+		margin-bottom: 30px;
+		padding: 0 60px;
+	}
+	/* feature start */
+	.feature{
+		padding: 20px 0 60px;
+	}
+	/* courses start */
+	.course{
+		padding: 0 0 60px;
+	}
+	.c_title h1{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.s_course{
+		margin: 20px 80px 0;
+		padding: 20px 15px 25px;
+	}
+	/* footer start */
+	.footer {
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.f_1{
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.f_2{
+		text-align: center;
+	}
+	/* tiste start */
+	.f_item {
+		padding-top: 15px;
+	}
+	.f_icon{
+		padding-bottom: 20px;
+	}
+	.f_text{
+		text-align: center;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* header start */
+	.menu ul li a{
+		padding: 0 15px 10px !important;
+	}
+	/* banner start */
+	.banner{
+		padding: 0 0 60px;
+	}
+	.b_text{
+		padding-right: 0;
+	}
+	.b_h1{
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.b_text2{
+		line-height: 24px;
+	}
+	.b_link{
+		margin-top: 20px;
+	}
+	.b_img{
+		margin-bottom: 30px;
+		padding: 0 60px;
+	}
+	/* feature start */
+	.feature{
+		padding: 20px 0 80px;
+	}
+	/* courses start */
+	.course{
+		padding: 0 0 80px;
+	}
+	.s_course{
+		margin: 30px 170px 0;
+		padding: 20px 15px 25px;
+		
+	}
+	/* testi start */
+	
+	.f_item{
+		margin-top: 0px;
+	}
+	/* footer start */
+	.footer{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* banner start */
+	.b_text{
+		margin-right: 0;
+	}
+	.b_h1{
+		margin: 10px 0 20px;
+		font-size: 44px;
+	}
+	/* courses start */
+	.left ul li img, .right ul li img{
+		width: 19px;
+	}
+	.left ul li span, .right ul li span{
+		font-size: 15px;
+		letter-spacing: -0.5px;
+	}
+	.mr_c{
+		margin-right: 0px !important;
+	}
+	/* testi start */
+	.f_icon{
+		text-align: end !important;
+	}
+	.f_icon img{
+		margin-top: -10px;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/* banner start */
+	.b_text{
+		margin-right: 45px;
+	}
+	/* testi start */
+	.f_icon{
+		text-align: end !important;
+	}
+	.f_icon img{
+		margin-top: -10px;
+	}
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	/* feature start */
+	.s_feature{
+		padding: 65px 0 60px;
+	}
+	/* testi start */
+	.f_icon{
+		text-align: end !important;
+	}
+	.f_icon img{
+		margin-top: -10px;
+	}
+	
+}
+
+
+/*
+custom Extra extra large devices (large desktops, 1400px and up)
+@media (min-width: 1400px) and (max-width: 1799.98px) {}
+
+custom Extra extra large devices (large desktops, 1800px and up)
+@media (min-width: 1800px) and (max-width: 1999.98px) {}
+
+custom Extra extra large devices (Extra large desktops, 2100px and up)
+@media (min-width: 2100px) {}*/
